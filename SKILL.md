@@ -12,7 +12,7 @@ description_zh: |
 description_en: |
   One-stop reservoir simulation teaching and validation pipeline: synthetic field data generation -> self-contained 2D oil-water IMPES simulator -> history matching via parameter sweep -> injection-schedule-change forecast. Outputs water-cut matching plots, RMSE curves, saturation snapshots, prediction comparison charts plus CSV/JSON. Includes three measured implementation pitfalls (singular system, well-term sign, CFL scope) and the permeability-scale non-identifiability criterion, reusable for energy-AI product verification and petroleum engineering education.
 category: industry
-version: 1.1.0
+version: 1.1.1
 author: 老桂
 tags:
   - 油藏模拟

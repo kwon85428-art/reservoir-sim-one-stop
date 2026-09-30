@@ -1,0 +1,17 @@
+# ── 行尾归一 ────────────────────────────────────
+# 仓库内统一 LF；Windows 检出也不转 CRLF，防 git status 抖动
+* text=auto eol=lf
+
+# ── 二进制白名单：禁止行尾转换 ──────────────────
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.pdf binary
+*.zip binary
+*.xz binary
+
+# ── 明确不参与转换 ──────────────────────────────
+*.xz -text
